@@ -61,7 +61,7 @@ function Dropdown() {
 ```jsx
 "use client"; // in next.js
 import React from 'react';
-import { useClickAway } from 'click-away-listener';
+import useClickAway from 'click-away-listener';
 
 function Modal({ onClose }) {
   const modalRef = useRef<HTMLDivElement>(null);

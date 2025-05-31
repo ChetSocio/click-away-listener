@@ -6,7 +6,6 @@ import React, {
 } from 'react';
 import {
   ClickAwayListenerProps,
-  ClickAwayEvent,
   EventConfig
 } from './types';
 import {

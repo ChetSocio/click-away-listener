@@ -1,4 +1,4 @@
-import { ClickAwayEvent, EventGroup } from './types';
+import { EventGroup } from './types';
 
 export const isMouseEvent = (event: Event): event is MouseEvent =>
   event.type.includes('mouse');
