@@ -1,0 +1,57 @@
+{
+  "name": "react-click-away-listener",
+  "version": "1.0.0",
+  "description": "A React component and hook library for detecting clicks outside an element, compatible with React 18 and Next.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublishOnly": "npm run build && npm run test",
+    "lint": "eslint src --ext ts,tsx",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BatchNepal/click-away-listener.git"
+  },
+  "keywords": [
+    "react",
+    "clickaway",
+    "click-away",
+    "dropdown",
+    "modal",
+    "nextjs",
+    "hook",
+    "component"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BatchNepal/click-away-listener/issues"
+  },
+  "homepage": "https://github.com/BatchNepal/click-away-listener#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/jest-dom": "^5.0.0",
+    "@types/jest": "^28.0.0",
+    "jest": "^28.0.0",
+    "ts-jest": "^28.0.0",
+    "typescript": "^4.7.0",
+    "prettier": "^2.7.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  }
+}
