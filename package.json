@@ -1,6 +1,6 @@
 {
   "name": "click-away-listener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component and hook library for detecting clicks outside an element, compatible with React 18 and Next.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
